@@ -15,6 +15,31 @@ Included metrics:
 - Data source: schools_complete.csv, students_complete.csv
 - Software: Anaconda 4.7.12, Pandas and Jupyter Notebook
 
+## Initial Analysis
+The PyCity School District has 39,170 students and a total budget of $24,649,428. The summary shows the average test scores and average passing rates.
+![District summary dataframe](images/dist_summ_df.png)
+
+The top five performing schools, based on overall passing rate.
+![Top five dataframe](images/top_5_df.png)
+
+The bottom five performing schools, based on overall passing rate.
+![Bottom five dataframe](images/bottom_5_df.png)
+
+Formatted dataframe showing only the first five schools listed for the average math score in each grade level at each school.
+![Average math scores by grade at each school](images/math_by_grade_df.png)
+
+Formatted dataframe showing only the first five schools listed for the average reading score in each grade level at each school.
+![Average reading scores by grade at each school](images/read_by_grade_df.png)
+
+School performance based on budget per student, listed by spending ranges.
+![Spending summary dataframe](images/spending_summ_df.png)
+
+School performance based on school size, categorized as small, medium, or large schools.
+![Performance by school size dataframe](images/size_summ_df.png)
+
+School performance based on type of school, either charter or district school.
+![School type summary dataframe](images/type_summ_df.png)
+
 ## Challenge Overview
 The math and reading scores for the ninth graders at Thomas High School have been compromised. The task is to remove the math and reading scores for all ninth graders at Thomas High School while keeping the rest of the data for each ninth-grade student.
 
